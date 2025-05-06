@@ -1,0 +1,9 @@
+name: ChromaBlock
+version: '1.0-SNAPSHOT'
+main: fr.chiroyuki.chromaBlock.ChromaBlock
+api-version: '1.21'
+
+commands:
+  chroma:
+    description: Génère un dégradé de blocs
+    usage: /chroma <start> <end> <points> [easing]
